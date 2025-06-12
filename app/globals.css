@@ -68,7 +68,19 @@
   }
 }
 
+
 /* Custom animations */
+
+
+.mobile-margin {
+  margin-bottom: 8rem !important;
+}
+@media (min-width: 640px) {
+  .mobile-margin {
+    margin-bottom: 4rem !important;
+  }
+}
+
 @keyframes float {
   0%,
   100% {

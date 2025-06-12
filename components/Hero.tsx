@@ -90,17 +90,19 @@ export default function Hero() {
               </p>
             </div>
 
-            <div
-              className={`pt-4 mb-16 transition-all duration-700 delay-1200 ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-              }`}
-            >
-              <Button className="group bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg relative overflow-hidden">
-                <span className="relative z-10">Start Your Project</span>
-                {/* Button shine effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-              </Button>
-            </div>
+        <div
+          className={`pt-4 mb-32 md:mb-16 transition-all duration-700 delay-1200 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
+          }`}
+        >
+          <Button
+            className="group bg-red-500 hover:bg-red-600 text-white px-8 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg relative overflow-hidden md:block hidden"
+          >
+            <span className="relative z-10">Start Your Project</span>
+            {/* Button shine effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+          </Button>
+        </div>
           </div>
 
           {/* Right Content */}
