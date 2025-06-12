@@ -70,50 +70,51 @@ export default function AboutUsPage() {
       name: "Oluwakeke Richard Dexter",
       role: "Founder & CEO",
       bio: "Visionary leader and entrepreneur with a passion for transforming businesses through innovative technology solutions. Expert in strategic planning and business development.",
-      image: "/ceo-photo.jpg",
-      location: "Lagos, Nigeria",
-      linkedin: "#",
+      image: "/richard.jpeg",
+      location: "Abuja, Nigeria",
+      linkedin: "https://www.linkedin.com/in/engrdexterr",
     },
+    
     {
-      name: "Sule Isaac",
-      role: "Co-Founder & CTO",
-      bio: "Technical architect and blockchain specialist with extensive experience in full-stack development and emerging technologies. Leads our engineering excellence.",
-      image: "/cto-photo.jpg",
+      name: "Israel Shedrach",
+      role: "Co-Founder & Head of Business Development",
+      bio: "Dynamic business leader with a knack for forging strategic partnerships and driving growth. Passionate about leveraging technology to solve real-world problems.",
+      image: "/shedrach.jpeg",
       location: "Abuja, Nigeria",
       linkedin: "#",
     },
     {
-      name: "Dr. Aisha Patel",
-      role: "Head of AI & Innovation",
-      bio: "PhD in Machine Learning from Stanford. Former research scientist at Google AI, now leading our AI initiatives.",
+      name: "Obiabo Emmanuel",
+      role: "CTO",
+      bio: "Tech visionary with over 10 years of experience in software development and architecture. Passionate about building scalable, secure, and innovative technology solutions.",
       image: "/placeholder.svg?height=300&width=300",
-      location: "London, UK",
+      location: "Lagos, Nigeria",
+      linkedin: "https://www.linkedin.com/in",
+    },
+    {
+      name: "Jerry Ekele",
+      role: "Co Founder",
+      bio: "Innovative thinker and strategist with a passion for technology and entrepreneurship. Drives our vision and growth.",
+      image: "/jerry-photo.jpg",
+      location: "Kogi, Nigeria",
       linkedin: "#",
     },
     {
-      name: "James Thompson",
-      role: "VP of Engineering",
-      bio: "Scalability expert with a track record of building systems that serve millions. Previously at Netflix and Uber.",
+      name: "Oluwaleke Samuel Temidayo",
+      role: "Growth Strategist and Head of content",
+      bio: "Creative storyteller and content strategist with a passion for technology and innovation. Drives our content vision and strategy.",
       image: "/placeholder.svg?height=300&width=300",
-      location: "Toronto, CA",
+      location: "Abuja, Nigeria",
       linkedin: "#",
     },
     {
-      name: "Elena Kowalski",
-      role: "Head of Design",
-      bio: "Award-winning UX designer who believes great design is invisible. Former design lead at Airbnb and Figma.",
+      name: "Olagunju Emmanuel Oluwasegun",
+      role: "Creative Design Lead",
+      bio: "Award-winning UX designer who believes great design is invisible. 6+ years creating intuitive user experiences that delight and engage.",
       image: "/placeholder.svg?height=300&width=300",
-      location: "Berlin, DE",
+      location: "Abuja, Nigeria",
       linkedin: "#",
-    },
-    {
-      name: "David Kim",
-      role: "VP of Client Success",
-      bio: "Client relationship expert who ensures every partnership thrives. 12+ years in enterprise sales and success.",
-      image: "/placeholder.svg?height=300&width=300",
-      location: "Singapore, SG",
-      linkedin: "#",
-    },
+    }
   ]
 
   const values = [
@@ -228,61 +229,7 @@ export default function AboutUsPage() {
               </div>
             </div>
 
-            {/* Timeline Section */}
-            <div className="mb-20">
-              <div className="text-center mb-12">
-                <h3 className="text-3xl md:text-4xl font-bold mb-4">Our Journey</h3>
-                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  From startup to industry leader - here are the key milestones that shaped our story
-                </p>
-              </div>
-
-              <div className="relative">
-                {/* Timeline Line */}
-                <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 to-pink-500 transform md:-translate-x-0.5"></div>
-
-                <div className="space-y-8">
-                  {milestones.map((milestone, index) => {
-                    const IconComponent = milestone.icon
-                    const isEven = index % 2 === 0
-
-                    return (
-                      <div
-                        key={index}
-                        className={`relative flex items-center ${isEven ? "md:flex-row" : "md:flex-row-reverse"}`}
-                      >
-                        {/* Timeline Node */}
-                        <div
-                          className={`absolute left-4 md:left-1/2 w-8 h-8 ${milestone.color} rounded-full flex items-center justify-center transform md:-translate-x-4 z-10`}
-                        >
-                          <IconComponent className="h-4 w-4 text-white" />
-                        </div>
-
-                        {/* Content */}
-                        <div className={`ml-16 md:ml-0 md:w-1/2 ${isEven ? "md:pr-8" : "md:pl-8"}`}>
-                          <Card className="hover:shadow-lg transition-shadow">
-                            <CardContent className="p-6">
-                              <div className="flex items-center justify-between mb-2">
-                                <Badge variant="outline" className="text-xs">
-                                  <Calendar className="h-3 w-3 mr-1" />
-                                  {milestone.year}
-                                </Badge>
-                              </div>
-                              <h4 className="text-xl font-semibold mb-2">{milestone.title}</h4>
-                              <p className="text-muted-foreground mb-3">{milestone.description}</p>
-                              <div className="pt-3 border-t border-gray-200">
-                                <p className="text-sm text-muted-foreground leading-relaxed">{milestone.details}</p>
-                              </div>
-                            </CardContent>
-                          </Card>
-                        </div>
-                      </div>
-                    )
-                  })}
-                </div>
-              </div>
-            </div>
-
+        
             {/* Team Section */}
             <div className="mb-20">
               <div className="text-center mb-12">
