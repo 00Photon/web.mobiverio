@@ -117,7 +117,7 @@ export default function AboutUsPage() {
     },
     {
       name: "Olagunju Emmanuel Oluwasegun",
-      role: "Creative Design Lead",
+      role: "Creative Designer",
       bio: "Award-winning UX designer who believes great design is invisible. 6+ years creating intuitive user experiences that delight and engage.",
       image: "/placeholder.svg?height=300&width=300",
       location: "Abuja, Nigeria",

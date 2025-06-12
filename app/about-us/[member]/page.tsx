@@ -392,6 +392,67 @@ const teamData = [
       },
     ],
   },
+  {
+    name: "Olagunju Emmanuel Oluwasegun",
+    role: "Creative Designer",
+    slug: "olagunju-emmanuel-oluwasegun",
+    bio: "Award-winning UX designer who believes great design is invisible. 6+ years creating intuitive user experiences that delight and engage.",
+    image: "/placeholder.svg?height=300&width=300",
+    location: "Abuja, Nigeria",
+    linkedin: "#",
+    email: "olagunju@mobiverio.com",
+    fullBio:
+      "Olagunju Emmanuel Oluwasegun is the Creative Designer at Mobiverio, where he oversees the creation of intuitive and engaging user experiences. An award-winning UX designer, Emmanuel believes that great design should be invisible, seamlessly enhancing the user’s interaction with technology. With over six years of experience, he has a proven track record of designing user-friendly interfaces that delight and engage. Emmanuel’s leadership has been key in establishing Mobiverio’s design standards and ensuring a consistent user experience across all products.",
+    education: [
+      {
+        degree: "BSc, Computer Science",
+        institution: "University of Lagos",
+        year: "2012",
+      },
+    ],
+    expertise: [
+      "Software Development",
+      "Cloud Computing",
+      "DevOps",
+      "Team Leadership",
+      "Agile Methodologies",
+    ],
+    achievements: [
+      "Winner of Nigeria Design Awards (2021)",
+      "Designed Mobiverio’s flagship product interface",
+      "Mentor for young designers at Design Africa",
+      "Speaker at UX Nigeria Conference (2022)",
+    ],
+    career: [
+      {
+        position: "Creative Design Lead",
+        company: "Mobiverio Limited",
+        period: "2019 - Present",
+      },
+      {
+        position: "Senior UX Designer",
+        company: "DesignHub Nigeria",
+        period: "2017 - 2019",
+      },
+      {
+        position: "Graphic Designer",
+        company: "Creative Studio",
+        period: "2016 - 2017",
+      },
+    ],
+    projects: [
+      {
+        name: "Product Interface Redesign",
+        description: "Led the redesign of Mobiverio’s core product interface",
+        year: "2020",
+      },
+      {
+        name: "Design System Development",
+        description: "Created a scalable design system for Mobiverio’s products",
+        year: "2021",
+      },
+    ],
+  }
 ];
 
 export default function TeamMemberPage({ params }: { params: { member: string } }) {
