@@ -70,7 +70,7 @@ export default function AboutUsPage() {
       name: "Oluwakeke Richard Dexter",
       role: "Founder & CEO",
       bio: "Visionary leader and entrepreneur with a passion for transforming businesses through innovative technology solutions. Expert in strategic planning and business development.",
-      image: "/richard.jpeg",
+      image: "/cto-photo.jpg",
       location: "Abuja, Nigeria",
       linkedin: "https://www.linkedin.com/in/engrdexterr",
     },

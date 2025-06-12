@@ -16,7 +16,7 @@ const teamData = [
     role: "Founder & CEO",
     slug: "oluwakeke-richard-dexter",
     bio: "Visionary leader and entrepreneur with a passion for transforming businesses through innovative technology solutions. Expert in strategic planning and business development.",
-    image: "/richard.jpeg",
+    image: "/cto-photo.jpg",
     location: "Abuja, Nigeria",
     linkedin: "https://www.linkedin.com/in/engrdexterr",
     email: "richard@mobiverio.com",
