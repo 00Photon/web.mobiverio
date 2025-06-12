@@ -1,33 +1,35 @@
 import Link from "next/link"
 import { Code } from "lucide-react"
+import Image from "next/image"
 
 export default function Footer() {
   const footerSections = [
     {
       title: "Services",
       links: [
-        { name: "SaaS Development", href: "#" },
-        { name: "Blockchain Solutions", href: "#" },
-        { name: "Enterprise Applications", href: "#" },
-        { name: "Consulting", href: "#" },
+        { name: "SaaS Development", href: "/services/saas-development" },
+        { name: "Custom Software", href: "/services/custom-software" },
+        { name: "Mobile Apps", href: "/services/mobile-apps" },
+        { name: "Web Development", href: "/services/web-development" },
+        { name: "Blockchain Solutions", href: "/services/blockchain" },
+
       ],
     },
     {
       title: "Company",
       links: [
-        { name: "About Us", href: "#" },
-        { name: "Our Team", href: "#" },
-        { name: "Careers", href: "#" },
-        { name: "Contact", href: "#" },
+        { name: "About Us", href: "/about-us" },
+        { name: "Our Team", href: "/about-us" },
+        { name: "Careers", href: "/about-us" },
+        { name: "Contact", href: "/contact" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { name: "Blog", href: "#" },
-        { name: "Case Studies", href: "#" },
-        { name: "Documentation", href: "#" },
-        { name: "Support", href: "#" },
+        { name: "Blog", href: "/blog" },
+        { name: "Case Studies", href: "/case-studies" },
+        { name: "Support", href: "/support" },
       ],
     },
   ]
@@ -38,9 +40,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
-                <Code className="h-5 w-5 text-white" />
-              </div>
+              
+              <Link href="/" className="flex items-center">
+                <Image src="/logo-red-icon.png" alt="Mobiverio" width={120} height={32} className="h-8 w-auto" />
+              </Link>
               <span className="ml-2 text-xl font-bold text-white">Mobiverio Limited</span>
             </div>
             <p className="text-white/60 text-sm">Transforming businesses with next-generation technology solutions.</p>
