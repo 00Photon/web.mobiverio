@@ -13,7 +13,7 @@ import Footer from "@/components/Footer"
 const teamData = [
   {
     name: "Oluwakeke Richard Dexter",
-    role: "Founder & CEO",
+    role: "Founder, CEO",
     slug: "oluwakeke-richard-dexter",
     bio: "Visionary leader and entrepreneur with a passion for transforming businesses through innovative technology solutions. Expert in strategic planning and business development.",
     image: "/cto-photo.jpg",
@@ -79,7 +79,7 @@ const teamData = [
   },
   {
     name: "Israel Shedrach",
-    role: "Co-Founder & Head of Business Development",
+    role: "Co-Founder, Head Business Development",
     slug: "israel-shedrach",
     bio: "Dynamic business leader with a knack for forging strategic partnerships and driving growth. Passionate about leveraging technology to solve real-world problems.",
     image: "/shedrach.jpeg",
@@ -211,7 +211,7 @@ const teamData = [
   },
   {
     name: "Jerry Ekele",
-    role: "Co-Founder",
+    role: "Co Founder, Chief Strategy Officer",
     slug: "jerry-ekele",
     bio: "Innovative thinker and strategist with a passion for technology and entrepreneurship. Drives our vision and growth.",
     image: "/jerry-photo.jpg",
@@ -333,7 +333,7 @@ const teamData = [
   },
   {
     name: "Dauda Gbolahan",
-    role: "Chief Technology Officer",
+    role: "Head of product design",
     slug: "dauda-gbolahan",
     bio: "Innovative tech leader with a passion for developing cutting-edge solutions. Over 10 years of experience in software development and team management.",
     image: "/placeholder.svg?height=300&width=300",
@@ -341,7 +341,7 @@ const teamData = [
     linkedin: "#",
     email: "dauda@mobiverio.com",
     fullBio:
-      "Dauda Gbolahan is the Chief Technology Officer at Mobiverio, where he leads the development of innovative technology solutions. With over 10 years of experience in software development and team management, Dauda is passionate about leveraging technology to drive business success. He has a proven track record of delivering complex projects on time and within budget, and his leadership has been instrumental in establishing Mobiverio as a leader in the tech industry.",
+      "Dauda Gbolahan is the Head of Product Design at Mobiverio, where he leads the design and development of innovative product solutions. With over 10 years of experience in software development and team management, Dauda is passionate about leveraging technology to drive business success. He has a proven track record of delivering complex projects on time and within budget, and his leadership has been instrumental in establishing Mobiverio as a leader in the tech industry.",
     education: [
       {
         degree: "BSc, Computer Science",

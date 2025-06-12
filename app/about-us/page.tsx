@@ -68,7 +68,7 @@ export default function AboutUsPage() {
   const team = [
     {
       name: "Oluwakeke Richard Dexter",
-      role: "Founder & CEO",
+      role: "Founder, CEO",
       bio: "Visionary leader and entrepreneur with a passion for transforming businesses through innovative technology solutions. Expert in strategic planning and business development.",
       image: "/cto-photo.jpg",
       location: "Abuja, Nigeria",
@@ -77,7 +77,7 @@ export default function AboutUsPage() {
     
     {
       name: "Israel Shedrach",
-      role: "Co-Founder & Head of Business Development",
+      role: "Co-Founder, Head Business Development",
       bio: "Dynamic business leader with a knack for forging strategic partnerships and driving growth. Passionate about leveraging technology to solve real-world problems.",
       image: "/shedrach.jpeg",
       location: "Abuja, Nigeria",
@@ -93,7 +93,7 @@ export default function AboutUsPage() {
     },
     {
       name: "Jerry Ekele",
-      role: "Co Founder",
+      role: "Co Founder, Chief Strategy Officer",
       bio: "Innovative thinker and strategist with a passion for technology and entrepreneurship. Drives our vision and growth.",
       image: "/jerry-photo.jpg",
       location: "Kogi, Nigeria",
