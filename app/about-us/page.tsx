@@ -108,6 +108,14 @@ export default function AboutUsPage() {
       linkedin: "#",
     },
     {
+      name: "Dauda Gbolahan",
+      role: "Head of Product Design",
+      bio: "Experienced product designer with a focus on user-centered design and innovation. Passionate about creating intuitive and engaging user experiences.",
+      image: "/placeholder.svg?height=300&width=300",
+      location: "Abuja, Nigeria",
+      linkedin: "#",
+    },
+    {
       name: "Olagunju Emmanuel Oluwasegun",
       role: "Creative Design Lead",
       bio: "Award-winning UX designer who believes great design is invisible. 6+ years creating intuitive user experiences that delight and engage.",
